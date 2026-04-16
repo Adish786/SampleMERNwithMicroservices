@@ -265,11 +265,11 @@ kubectl get ingress mern-ingress   //name of the cluster
 ![][image24]
 
 \# Frontend (should return the React HTML)  
-curl http://34.49.202.235/  
+curl http://34.111.2.96/  
 \# Hello service (should return a greeting JSON)  
-curl http://34.49.202.235/api/  
+curl http://34.111.2.96/api/  
 \# Profile service (should return profile data or a message)  
-curl http://34.49.202.235/profile/
+curl http://34.111.2.96/profile/
 
 [image1]: ./docs/readme-images/image1.png
 
